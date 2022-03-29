@@ -36,7 +36,9 @@ nav {
     margin-right: 0px;
 }
 .top-mid{
-    padding-left: 55rem;
+    margin-left: auto;
+    margin-right: auto;
+    
 }
 #top {
     background: #F25757;
