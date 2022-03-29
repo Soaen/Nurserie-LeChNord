@@ -1,0 +1,65 @@
+.body-connexion {
+    background-color: #A3C9A8;
+}
+
+.rectangle {
+    width: 500px;
+    height: 530px;
+    background: #b4b0a0;
+}
+
+.top-5 {
+    top: 5% !important;
+}
+
+.rectangle-round {
+    border-radius: 5rem;
+}
+
+.connexion-text {
+    font-size: 36px;
+}
+
+#logo-left-top {
+    margin-top: 1em;
+}
+
+.connexion-form {
+    margin-top: 4em;
+}
+
+.form-pswd {
+    margin-top: 2em;
+}
+
+.btn-close-custom {
+    margin-left: 26rem;
+    margin-top: 2rem;
+}
+
+.form-souvenir {
+    margin-left: 4em;
+    margin-top: 1em;
+}
+
+.form-valid {
+    margin-left: 5.5rem;
+    border-radius: 0.5rem;
+    font-size: 1.65rem;
+    padding: 1.50rem 6rem;
+}
+
+.log-form {
+    width: 20rem;
+    margin-left: 5.5rem;
+    padding: 16px 32px;
+}
+
+.noaccount {
+    margin-left: 8rem;
+    margin-top: 1rem;
+}
+
+.log-text {
+    margin-left: 12rem;
+}

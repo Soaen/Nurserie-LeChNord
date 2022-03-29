@@ -1,0 +1,186 @@
+body {
+    overflow-x: hidden;
+}
+
+#navigation li {
+    display: inline-block;
+    padding: 20px;
+}
+
+#navigation a {
+    font-family: 'Calibri', 'sans-serif';
+    background: #F2A05D;
+    font-size: 20px;
+    margin-left: 25px;
+    margin-right: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+#navigation li:hover a {
+    float: none;
+    background-color: #F2C460;
+    color: black;
+}
+
+#navigation li:hover {
+    float: none;
+    background-color: #F2C460;
+    color: black;
+}
+
+nav {
+    background: #F2A05D;
+    margin: -16px;
+    margin-left: -35px;
+    margin-right: 0px;
+}
+.top-mid{
+    padding-left: 55rem;
+}
+#top {
+    background: #F25757;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#top a {
+    text-decoration: none;
+}
+
+.top-right{
+    padding: 10px;
+    margin-right: 2rem;
+}
+
+.card-custom-place {
+    margin-top: 2rem;
+}
+
+h5 {
+    text-decoration: none;
+}
+
+.article li {
+    display: inline;
+}
+
+.card {
+    background-color: #b4b0a0;
+}
+
+.article-name {
+    text-decoration: none;
+    font-family: 'Calibri', 'sans-serif';
+    font-size: 48px;
+    font-weight: bold;
+    color: black;
+}
+
+.article-desc {
+    font-family: 'Calibri', 'sans-serif';
+    font-size: 32px;
+    color: black;
+}
+
+.name-collec {
+    font-family: 'Calibri', 'sans-serif';
+    font-weight: bold;
+}
+
+.badge-small {
+    height: 30px;
+    width: 50px;
+    font-family: 'Calibri', 'sans-serif';
+    font-weight: bold;
+    font-size: medium;
+    margin-left: 1rem;
+}
+
+.img-prod {
+    border: 1px solid gray;
+    margin-left: 7.5rem;
+    margin-top: 7.5rem;
+    background-color: #b4b0a0;
+    border-radius: 5rem;
+}
+
+.desc-produit {
+    margin-left: 30rem;
+}
+
+.prod-title {
+    margin-top: -20rem;
+    font-family: 'Calibri', 'sans-serif';
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.prod-text {
+    font-family: 'Calibri', 'sans-serif';
+    font-size: 1.5rem;
+}
+
+.prod-price {
+    font-size: 1rem;
+}
+
+.rectangle {
+    width: 200px;
+    height: 480px;
+    background: #b4b0a0;
+    margin-left: 40rem;
+    margin-top: 4rem;
+    border: 1px solid gray;
+}
+
+.desc-title-prod {
+    margin-left: 0.2rem;
+    margin-top: 1rem;
+    font-family: 'Calibri', 'sans-serif';
+    font-size: 1.35rem;
+    text-align: center;
+}
+
+.quant-prod {
+    margin-left: 3rem;
+    font-size: 0.8rem;
+}
+
+.nb-prod {
+    width: 40px;
+}
+
+.btn-panier {
+    margin-left: 1.65rem;
+}
+
+.selec-taille {
+    margin-left: 1.5rem;
+    margin-top: 2rem;
+}
+
+.selec-taille-button {
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+}
+
+.livraison {
+    margin-left: 3rem;
+    margin-top: 3rem;
+}
+
+#demo {
+    margin-left: 2.3rem;
+    font-size: 1.35rem;
+    font-weight: bold;
+}
+
+.livraison-suite {
+    margin-left: 0.8rem;
+}

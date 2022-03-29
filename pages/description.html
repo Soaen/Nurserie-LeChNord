@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../style/description.css" rel="stylesheet">
+    <title>Description Produit</title>
+    <script>
+        var countDownDate = new Date("March 11, 2022 17:37:25").getTime();
+        var x = setInterval(function() {
+
+            var now = new Date().getTime();
+
+            var distance = countDownDate - now;
+
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("demo").innerHTML = hours + "h " +
+                minutes + "m " + seconds + "s";
+
+            if (distance < 0) {
+                clearInterval(x);
+                document.getElementById("demo").innerHTML = "EXPIRÉ";
+            }
+        }, 1000);
+    </script>
+</head>
+
+<body>
+    <header>
+        <ul id="top">
+            <div class="top-left">
+                <a href="../index.html" title="accueil">
+                    <img src="../imgs/logo.png" height="40" width="120">
+                </a>
+            </div>
+            <div class="top-right">
+                <a href="../pages/cart.html" title="cart" class="top-right-cart">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" height="40" width="40">
+                    <path d="M96 0C107.5 0 117.4 8.19 119.6 19.51L121.1 32H541.8C562.1 32 578.3 52.25 572.6 72.66L518.6 264.7C514.7 278.5 502.1 288 487.8 288H170.7L179.9 336H488C501.3 336 512 346.7 512 360C512 373.3 501.3 384 488 384H159.1C148.5 384 138.6 375.8 136.4 364.5L76.14 48H24C10.75 48 0 37.25 0 24C0 10.75 10.75 0 24 0H96zM128 464C128 437.5 149.5 416 176 416C202.5 416 224 437.5 224 464C224 490.5 202.5 512 176 512C149.5 512 128 490.5 128 464zM512 464C512 490.5 490.5 512 464 512C437.5 512 416 490.5 416 464C416 437.5 437.5 416 464 416C490.5 416 512 437.5 512 464z"/></svg>
+                </a>
+                <a href="../pages/connexion.html" title="profil" class="top-right-profil">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" height="40" width="40">
+                    <path d="M224 256c70.7 0 128-57.31 128-128s-57.3-128-128-128C153.3 0 96 57.31 96 128S153.3 256 224 256zM274.7 304H173.3C77.61 304 0 381.6 0 477.3c0 19.14 15.52 34.67 34.66 34.67h378.7C432.5 512 448 496.5 448 477.3C448 381.6 370.4 304 274.7 304z"/></svg>
+                </a>
+            </div>
+        </ul>
+        <ul id="navigation">
+            <nav>
+                <li><a href="#">Bon Plans</a></li>
+                <li><a href="#">Marques</a></li>
+                <li><a href="#">Hommes</a></li>
+                <li><a href="#">Femmes</a></li>
+                <li><a href="#">Accessoires</a></li>
+                <li><a href="#">Enfants</a></li>
+                <li><a href="#">Chaussures</a></li>
+            </nav>
+        </ul>
+    </header>
+    <section>
+        <article>
+            <img src="../imgs/art1.png" height="320" width="320" alt="Ranger de vêtement" class="img-prod">
+            <div class="desc-produit">
+                <p class="prod-title">T-Shirt Victoire Royale</p>
+                <p class="prod-price text-muted">9999,99€</p>
+                <p class="prod-text">Vous souhaitez avoir un max de style dans la cour de primaire ?<br>Ce T-Shirt est fait pour vous !<br>Grâce à ce T-Shirt d'une haute qualité, vous pourrez sans soucis être le plus stylé !</p>
+            </div>
+            <div class="rectangle position-absolute top-50 start-50 translate-middle rounded">
+                <p class="desc-title-prod">T-Shirt Victoire Royale</p>
+                <label for="nb" class="quant-prod">Quantité:</label>
+                <input type="number" class="nb-prod" name="nb" id="nb" min="1" max="10" value="1"><br>
+
+                <label for="ville" class="selec-taille">Sélectionnez la taille:</label><br>
+                <select id="taille" name="taille" size="1" class="selec-taille-button">
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+            <option value="xl">XL</option>
+            <option value="xxl">XXL</option>
+            <option value="xxxl">XXXL</option>
+        </select>
+                <br>
+                <p class="livraison">Il vous reste
+                    <p id="demo"></p>
+                    <p class="livraison-suite"> pour le recevoir demain !</p>
+                </p>
+
+                <button type="submit" class="btn btn-secondary form-valid btn-panier">Ajouter au panier</button>
+            </div>
+        </article>
+    </section>
+</body>
+
+</html>
