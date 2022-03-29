@@ -1,11 +1,11 @@
 .body-connexion {
-    background-color: #A3C9A8;
+    background-color: #c4c4c4;
 }
 
 .rectangle {
     width: 500px;
     height: 530px;
-    background: #b4b0a0;
+    background: #F6DD92;
 }
 
 .top-5 {
@@ -20,8 +20,14 @@
     font-size: 36px;
 }
 
-#logo-left-top {
-    margin-top: 1em;
+#logo-left {
+    margin-top: 18em;
+    margin-left: 10em;
+}
+
+#logo-right {
+    margin-top: 18em;
+    margin-left: 55em;
 }
 
 .connexion-form {
