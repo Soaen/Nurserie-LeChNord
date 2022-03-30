@@ -40,6 +40,20 @@ nav {
     margin-right: auto;
     
 }
+.decoration-off{
+    text-decoration: none;
+    color: black;
+}
+.decoration-off:hover{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+}
+
+.border{
+    border: solid;
+    border: 2px;
+    border: outset #f33;
+}
 #top {
     background: #F25757;
     padding-top: 1%;
@@ -69,9 +83,7 @@ h5 {
     display: inline;
 }
 
-.card {
-    background-color: #b4b0a0;
-}
+
 
 .article-name {
     text-decoration: none;
