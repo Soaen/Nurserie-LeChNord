@@ -1,6 +1,5 @@
 body {
     overflow-x: hidden;
-    background-color: #DDD8C4;
 }
 
 #navigation li {
@@ -10,7 +9,7 @@ body {
 
 #navigation a {
     font-family: 'Calibri', 'sans-serif';
-    background: #50808E;
+    background: #F2A05D;
     font-size: 20px;
     margin-left: 25px;
     margin-right: 25px;
@@ -20,18 +19,46 @@ body {
 
 #navigation li:hover a {
     float: none;
-    background-color: #A3C9A8;
+    background-color: #F2C460;
     color: black;
 }
 
 #navigation li:hover {
     float: none;
-    background-color: #A3C9A8;
+    background-color: #F2C460;
     color: black;
 }
 
+nav {
+    background: #F2A05D;
+    margin: -16px;
+    margin-left: -35px;
+    margin-right: 0px;
+}
+
+.top-mid{
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.decoration-off{
+    text-decoration: none;
+    color: black;
+}
+
+.decoration-off:hover{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+}
+
+.border{
+    border: solid;
+    border: 2px;
+    border: outset #f33;
+}
 #top {
-    background: #69A297;
+    background: #F25757;
     padding-top: 1%;
     padding-bottom: 1%;
     display: flex;
@@ -42,11 +69,9 @@ body {
     text-decoration: none;
 }
 
-nav {
-    background: #50808E;
-    margin: -16px;
-    margin-left: -35px;
-    margin-right: 0px;
+.top-right{
+    padding: 10px;
+    margin-right: 2rem;
 }
 
 .img-prod {
