@@ -21,13 +21,13 @@
 }
 
 #logo-left {
-    margin-top: 18em;
-    margin-left: 10em;
+    margin-top: 12rem;
+    margin-left: 7rem;
 }
 
 #logo-right {
-    margin-top: 18em;
-    margin-left: 55em;
+    margin-top: 12rem;
+    margin-left: 45rem;
 }
 
 .connexion-form {
@@ -71,6 +71,6 @@
 }
 
 .passwd-lost {
-    padding-left: 15rem;
+    padding-left: 10rem;
     padding-top: 0.5rem;
 }
