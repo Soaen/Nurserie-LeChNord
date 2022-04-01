@@ -37,27 +37,27 @@ nav {
     margin-right: 0px;
 }
 
-.top-mid{
+.top-mid {
     margin-left: auto;
     margin-right: auto;
-    
 }
 
-.decoration-off{
+.decoration-off {
     text-decoration: none;
     color: black;
 }
 
-.decoration-off:hover{
+.decoration-off:hover {
     text-decoration: none;
     color: rgb(104, 104, 104);
 }
 
-.border{
+.border {
     border: solid;
     border: 2px;
     border: outset #f33;
 }
+
 #top {
     background: #F25757;
     padding-top: 1%;
@@ -70,85 +70,9 @@ nav {
     text-decoration: none;
 }
 
-.top-right{
+.top-right {
     padding: 10px;
     margin-right: 2rem;
-}
-
-.img-prod {
-    border: 1px solid gray;
-    margin-left: 7.5rem;
-    margin-top: 7.5rem;
-    background-color: #b4b0a0;
-    border-radius: 5rem;
-}
-
-.desc-produit {
-    margin-left: 30rem;
-}
-
-.prod-title {
-    margin-top: -20rem;
-    font-family: 'Calibri', 'sans-serif';
-    font-size: 3rem;
-    font-weight: bolder;
-}
-
-.prod-text {
-    font-family: 'Calibri', 'sans-serif';
-    font-size: 1.5rem;
-}
-
-.prod-price {
-    font-size: 1rem;
-}
-
-.rectangle {
-    width: 200px;
-    height: 480px;
-    background: #b4b0a0;
-    margin-left: 40rem;
-    margin-top: 4rem;
-    border: 1px solid gray;
-}
-
-.desc-title-prod {
-    margin-left: 0.2rem;
-    margin-top: 1rem;
-    font-family: 'Calibri', 'sans-serif';
-    font-size: 1.35rem;
-    text-align: center;
-}
-
-.quant-prod {
-    margin-left: 3rem;
-    font-size: 0.8rem;
-}
-
-.nb-prod {
-    width: 40px;
-}
-
-.btn-panier {
-    margin-left: 1.65rem;
-}
-
-.selec-taille {
-    margin-left: 1.5rem;
-    margin-top: 2rem;
-}
-
-.selec-taille-button {
-    margin-left: 2.5rem;
-    margin-top: 1rem;
-    width: 120px;
-    height: 40px;
-    text-align: center;
-}
-
-.livraison {
-    margin-left: 3rem;
-    margin-top: 3rem;
 }
 
 #demo {
@@ -157,9 +81,29 @@ nav {
     font-weight: bold;
 }
 
-.livraison-suite {
-    margin-left: 0.8rem;
-}
 i {
     color: #ffc371;
-  }
+}
+
+.btn-art {
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.img-art {
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+.art-title {
+    font-size: 50px;
+    margin-top: 2rem;
+    margin-left: 40rem;
+    margin-right: auto;
+}
+
+.art-text {
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+}
