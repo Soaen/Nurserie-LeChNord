@@ -6,6 +6,7 @@ body {
     display: inline-block;
     padding: 20px;
     cursor: pointer;
+    margin-left: 2.859rem;
 }
 
 #navigation a {
@@ -73,6 +74,7 @@ nav {
 .top-right {
     padding: 10px;
     margin-right: 2rem;
+    margin-top: 0.8rem;
 }
 
 #demo {
@@ -86,8 +88,15 @@ i {
 }
 
 .btn-art {
-    margin-left: 2rem;
-    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.btn-art:hover {
+    filter: invert(30%);
+}
+
+.top-left {
+    margin-top: 1.5rem;
 }
 
 .img-art {
@@ -106,6 +115,10 @@ i {
     margin-top: 2rem;
     margin-left: 10rem;
     margin-right: 10rem;
+}
+
+.article-all {
+    margin-top: 5rem;
 }
 
 #respond {

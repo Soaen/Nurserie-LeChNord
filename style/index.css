@@ -37,27 +37,27 @@ nav {
     margin-right: 0px;
 }
 
-.top-mid{
+.top-mid {
     margin-left: auto;
     margin-right: auto;
-    
 }
 
-.decoration-off{
+.decoration-off {
     text-decoration: none;
     color: black;
 }
 
-.decoration-off:hover{
+.decoration-off:hover {
     text-decoration: none;
     color: rgb(104, 104, 104);
 }
 
-.border{
+.border {
     border: solid;
     border: 2px;
     border: outset #f33;
 }
+
 #top {
     background: #F25757;
     padding-top: 1%;
@@ -70,9 +70,10 @@ nav {
     text-decoration: none;
 }
 
-.top-right{
+.top-right {
     padding: 10px;
     margin-right: 2rem;
+    margin-top: 0.8rem;
 }
 
 .card-custom-place {
@@ -86,8 +87,6 @@ h5 {
 .article li {
     display: inline;
 }
-
-
 
 .article-name {
     text-decoration: none;
@@ -202,20 +201,21 @@ h5 {
 .livraison-suite {
     margin-left: 0.8rem;
 }
+
 #button-addon1 {
     color: #ffc371;
-  }
-  
-  i {
+}
+
+i {
     color: #ffc371;
-  }
-  
-  .form-control::placeholder {
+}
+
+.form-control::placeholder {
     font-size: 0.95rem;
     color: #aaa;
     font-style: italic;
-  }
-  
-  .form-control.shadow-0:focus {
+}
+
+.form-control.shadow-0:focus {
     box-shadow: none;
-  }
+}
