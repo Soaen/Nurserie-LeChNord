@@ -66,6 +66,29 @@
             quaerat adipisci dolores reiciendis, iure suscipit ipsum omnis laboriosam quos autem deserunt aliquid! Laboriosam sit vero nobis animi iste non quisquam culpa, rem repellendus vel eius? Temporibus ut maxime cumque, quos modi aliquam maiores
             laudantium sapiente! Vero incidunt, quia quaerat voluptates deleniti blanditiis vel molestiae architecto atque maxime voluptate voluptatem? Ratione odit repudiandae corrupti quae nam!</p>
     </article>
+    <div id="respond">
+
+        <h3>Commentaires</h3>
+
+        <form method="post" id="commentform">
+
+            <label for="comment_author" class="required">Votre prénom</label>
+            <input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+
+            <label for="email" class="required">Votre email</label>
+            <input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+            <label for="comment" class="required">Votre message</label>
+            <textarea name="comment" id="comment" rows="10" tabindex="4" required="required"></textarea>
+
+
+            <input type="hidden" name="comment_post_ID" value="1" id="comment_post_ID" />
+            <input name="submit" type="submit" value="Envoyer" />
+
+        </form>
+
+    </div>
+
 
     <footer class="bg-white">
         <div class="container py-5">
