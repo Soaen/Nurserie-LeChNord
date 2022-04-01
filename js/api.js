@@ -16,6 +16,7 @@ client.connect();
 app.get('/articles/:id', (req, res) => {
     client.query(`SELECT * FROM genre WHERE id=${req.params.id}`, (err, result) => {
         if (!err) {
+            document.getElementById("txtHint").innerHTML = result.rows;
             res.send(result.rows);
         } else {
             res.send(err.message);
